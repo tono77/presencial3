@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Float</title>
+    <style media="screen">
+
+      html {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+
+      .header {
+        color:white;
+        background-color: black;
+        font-family:sans-serif;
+        height:60px;
+        margin:auto;
+      }
+
+      .menu_izq {
+        float:left;
+        padding-right: 100px;
+        background-color: #D7D7D7;
+        font-family:sans-serif;
+      }
+
+      .content {
+        float:left;
+        padding-left: 5px;
+        font-family:sans-serif;
+        box-sizing: border-box;
+
+      }
+
+      .footer{
+        text-align: center;
+        background-color: #909090;
+        padding-top: 2px;
+        color: white;
+        font-family:sans-serif;
+      }
+
+      .clearfix {
+        clear:both;
+
+      }
+      h1{
+        /*padding-top: 20px;*/
+        margin:auto;
+      }
+
+      li{
+        color: blue;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Título página</h1>
+    </div>
+
+    <div class="menu_izq">
+      <h2>Menú</h2>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2>Sub-título</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+
+    <div class="footer clearfix">
+      <p>Todos los derechos reservados</p>
+    </div>
+  </body>
+</html>
